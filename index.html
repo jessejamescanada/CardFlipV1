@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Card Flip</title>
+  </head>
+  <body>
+    <section class="memory-game">
+      <div class="memory-card" data-image="panda">
+        <img src="img/card1.svg" class="front-face" />
+        <img src="img/back.svg" class="back-face" />
+      </div>
+      <div class="memory-card" data-image="panda">
+        <img src="img/card1.svg" class="front-face" />
+        <img src="img/back.svg" class="back-face" />
+      </div>
+      <div class="memory-card" data-image="pig">
+        <img src="img/card4.svg" class="front-face" />
+        <img src="img/back.svg" class="back-face" />
+      </div>
+      <div class="memory-card" data-image="pig">
+        <img src="img/card4.svg" class="front-face" />
+        <img src="img/back.svg" class="back-face" />
+      </div>
+      <div class="memory-card" data-image="chick">
+        <img src="img/card6.svg" class="front-face" />
+        <img src="img/back.svg" class="back-face" />
+      </div>
+      <div class="memory-card" data-image="chick">
+        <img src="img/card6.svg" class="front-face" />
+        <img src="img/back.svg" class="back-face" />
+      </div>
+      <div class="memory-card" data-image="dog">
+        <img src="img/card8.svg" class="front-face" />
+        <img src="img/back.svg" class="back-face" />
+      </div>
+      <div class="memory-card" data-image="dog">
+        <img src="img/card8.svg" class="front-face" />
+        <img src="img/back.svg" class="back-face" />
+      </div>
+      <div class="memory-card" data-image="elephant">
+        <img src="img/card10.svg" class="front-face" />
+        <img src="img/back.svg" class="back-face" />
+      </div>
+      <div class="memory-card" data-image="elephant">
+        <img src="img/card10.svg" class="front-face" />
+        <img src="img/back.svg" class="back-face" />
+      </div>
+      <div class="memory-card" data-image="giraffe">
+        <img src="img/card11.svg" class="front-face" />
+        <img src="img/back.svg" class="back-face" />
+      </div>
+      <div class="memory-card" data-image="giraffe">
+        <img src="img/card11.svg" class="front-face" />
+        <img src="img/back.svg" class="back-face" />
+      </div>
+    </section>
+
+    <div class="modal">
+      <div id="result" class="modal-content">
+        <h1 class="modalH1">Winner!</h1>
+        <h3 class="moves"></h3>
+        <button class="btn">Play Again</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
